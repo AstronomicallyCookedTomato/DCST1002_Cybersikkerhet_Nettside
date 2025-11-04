@@ -18,7 +18,7 @@
 <body>
     <nav class="navbar">
         <div class="navbar__container">
-            <a href="/" id="navbar__logo">CYBERSECURITY</a>
+            <a href="/" id="navbar__logo"><b>CYBERSIKKERHET</b></a>
             <div class="navbar__toggle" id="mobile-menu">
                 <span class="bar"></span>
                 <span class="bar"></span>
@@ -27,25 +27,25 @@
             <ul class="navbar__menu">
                 <li class="navbar__item">
                     <a href="/" class="navbar__links">
-                        HOME
+                        HJEM
 
                     </a>
                 </li>
                 <li class="navbar__item">
                     <a href="/tech.html" class="navbar__links">
-                        RISKS
+                        RISIKO
 
                     </a>
                 </li>
                 <li class="navbar__item">
-                    <a href="/" class="navbar__links">
-                        QUIZ
+                    <a href="/signup.html" class="navbar__links">
+                        KILDER
 
                     </a>
                 </li>
                 <li class="navbar__btn">
-                    <a href="/" class="button">
-                        SIGN UP
+                    <a href="/quiz.html" class="button">
+                        QUIZ
 
                     </a>
                 </li>
@@ -57,9 +57,8 @@
     <div class="main">
         <div class="main__container">
             <div class="main__content">
-                <h1>THIS IS RISK PAGE</h1>
-                <h2>RISKS AND MEASURES</h2>
-                <p>How you can protect yourself and your workplace.</p>
+                <h1>VELKOMMEN TIL RISIKOSIDEN</h1>
+                <p>Her lærer du hvordan du kan beskytte deg selv og din arbeidsplass</p>
             </div>
             <div class="main__img--container">
                 <img src="images/pic1.svg" alt="pic" id="main__img">
@@ -69,9 +68,11 @@
 
     <!-- Services Section -->
 
-    <div class="services">
+    <div class="risk-content">
         <h1>Introduksjon</h1>
-        <p>Jobb trygt hjemmefra.</p>
+        <p><b>Jobb trygt hjemmefra.</b></p>
+        <img src="images/pic5.png" alt="With great freedom comes great responsibility" width="300" class="
+        risk-img-right">
         <br>
         <p>Det har blitt mer vanlig med hjemmekontor etter covid, 
             og en del folk liker å kunne sitte hjemme og jobbe. 
@@ -86,7 +87,7 @@
             dokumenter eller systemer blir kompromittert. Målet er å gjøre deg 
             tryggere i hverdagen, uten at du trenger å bli en sikkerhetsekspert.</p>
 
-        <br><br><br><br><br>
+        <br><br>
 
         <h1>Del 1: Nettverk</h1>
         <p><b>Hva kjennetegner et sikkert nettverk?</b></p>
@@ -106,7 +107,13 @@
         <br>
         <p><b>Integritet:</b> informasjonen er riktig og har ikke blitt endret eller manipulert av andre.</p><br>
         <p><b>Konfidensialitet:</b> informasjonen er beskyttet fra uautorisert tilgang.</p><br>
-        <p><b>Tilgjengelighet:</b> informasjonen er tilgjengelig og brukbar når autoriserte brukere har behov for det.</p><br>
+        <p><b>Tilgjengelighet:</b> informasjonen er tilgjengelig og brukbar når autoriserte brukere har behov for det.</p>
+        
+        
+        <img src="images/pic6.png" alt="" width="400" class="
+        risk-img-right">
+        <br>
+
         <p>Når disse prinsippene følges, reduseres risikoen for uautoriserte tilgang til 
             sensitiv informasjon, og du kan jobbe trygt på hvilket som helst nettverk.</p>
         <br>
@@ -115,7 +122,7 @@
             brytes de når vi kobler oss til ukjente offentlige nettverk. </p>
         <br>
 
-        <br><br><br>
+        <br>
 
         <h1>Offentlig Nettverk</h1>
         <p><b>Scenario 1</b></p>
@@ -126,7 +133,9 @@
             lønnslippet og sender lønnsinformasjonen til sjefen.</p>
         <p>Men uten at du merker det, er har du egentlig koblet til et falskt nettverk, 
             og nettverket overvåket av en angriper. Filen du sendte, går rett i hendene 
-            til en uautorisert person, som kan lese og endre innholdet. Alle navn, 
+            til en uautorisert person, som kan lese og endre innholdet. Alle navn, <img src=
+            "images/pic7.webp" alt="" width="360" 
+            class="risk-img-right">
             personnummer og bank informasjon havner i angriperens hender, mens du er på vei 
             hjem for å avslutte arbeidsdagen.</p>
         <p>Dette er et eksempel på et usikret offentlig nettverk, der konfidensialiteten brytes.
@@ -134,7 +143,7 @@
              verktøy få tilgang til den sensitive bedriftsinformasjonen. Du merker ingen 
              forskjell på om nettverket er legitim, men for en angriper er det nok at du 
              trykker «Koble til».</p>
-        <br><br>
+        <br>
         <p><b>Forklaring av potensielle sårbarheter:</b></p>
         <br>
         <p>Usikkert Offentlig Nettverk</p>
@@ -147,59 +156,77 @@
             passord du skriver inn og hvilke filer sender. Dette skjer blant annet fordi 
             trafikken i nettverket er ikke kryptert med teknologier som WPA3, som sørger for 
             å gjøre informasjonen uleselig for uautoriserte brukere.</p>
-            <br>
-            <p>Noen vanlige metoder for utnyttelse er Rouge Access Points, Man-in-the-Middle 
-                og spredning av skadevare. </p>
-            <br><br>
-            <p><b>Man-in-the-middle</b></p>
-            <br>
-            <p>Er et angrep der uvedkommende plasserer seg mellom enheten din og destinasjonen 
-                for trafikken din. Ved å gjøre dette oppnår en angriper tilgang til å lese all 
-                trafikken din, inkludert sensitiv informasjon som passordene og bankkortene dine. 
-                Dette er mulig fordi trafikken ikke er kryptert og angriperen kan sette opp 
-                et falskt tilgangspunkt. Takket være gratis nettverksverktøy, krever ikke 
-                dette angrepet store tekniske kunnskaper.</p>
-            <br>
-            <p>Dette fører til at trafikken blir fanget av angriperen, og i noen tilfeller kan 
-                trafikken til å med bli endret. For eksempel kan angriperen lure deg ved å sende 
-                deg til en falsk nettside som ligner på outlook, og be deg skrive inn 
-                brukernavnet og passordet, som angripere misbruker med glede. Dette fører til 
-                at både konfidensialitet og integritet blir kompromittert.</p>
-            <br><br>
-            <p><b>Rogue Access Point</b></p>
-            <br>
-            <p>Er et angrep der angriperen setter opp et trådløst nettverk som etterligner 
-                et ekte nettverk, ved å ha lignende eller troverdige nettverksnavn som lurer 
-                brukere til å tro at det er et legitimt nettverk. Ved å koble til et slik 
-                nettverk ruter man trafikken sin gjennom angriperens verktøy og utstyr, og 
-                han kan se og endre alt kommunikasjon du har med omverden. Man vil ha lignende 
-                muligheter for utnytelse som i Man-in-the-Middel angrep. Dette fører til at 
-                både konfidensialitet og integritet blir kompromittert.</p>
-            <br><br>
-            <p><b>Spredning av Skadevare</b></p>
-            <br>
-            <p>Et åpent nettverk kan være en snarvei for angripere til å spre ondsinnet 
-                programvare. Mange enheter lar deg automatisk dele filer med enheter på samme 
-                nettverk. Det kan virke praktisk, helt til en av filene er et skadevare som 
-                plantes på enheten din. Dette gir en angriper full tilgang og kontroll over 
-                enheten din, inkludert all sensitiv informasjon. Dette kan føre til at 
-                informasjonen blir stjålet og eneste måte å få det tilbake ved å betale 
-                løsepenger (Ransomware). Den infisert enheten vil også utgjøre en trussel 
-                for bedriftsnettverket når du først møter opp på kontoret. Dette fører 
-                til at både konfidensialitet, integritet og tilgjengelighet blir kompromittert.</p>
-            <br><br>
-            <p><b>Konklusjon</b></p>
-            <br>
-            <p>Alle disse sårbarhetene oppstår fordi brukeren ikke har kontroll på hvem som 
-                eier eller drifter nettverket man kobler seg til. Og selv om metodene varierer, 
-                har alle angrepene ett felles mål, som er å bryte ned tilliten og sikkerheten 
-                i datakommunikasjonen. Ved å forstå hvordan slike sårbarheter oppstår, 
-                kan du lettere gjenkjenne trusler og beskytte din egen og bedriftens 
-                sensitive informasjon.</p>
-            <br>
-            <p>Hvor mange ganger har du koblet deg til et åpent nettverk uten å tenke over det?</p>
+        <br>
+        <p>Noen vanlige metoder for utnyttelse er Rouge Access Points, Man-in-the-Middle 
+            og spredning av skadevare. </p>
+        <br>
+        <img src="images/pic8.png" alt="" 
+        width=80% class="risk-img">
+        <p><b>Man-in-the-middle</b></p>
+        <br>
+        <p>Er et angrep der uvedkommende plasserer seg mellom enheten din og destinasjonen 
+            for trafikken din. Ved å gjøre dette oppnår en angriper tilgang til å lese all 
+            trafikken din, inkludert sensitiv informasjon som passordene og bankkortene dine. 
+            Dette er mulig fordi trafikken ikke er kryptert og angriperen kan sette opp 
+            et falskt tilgangspunkt. Takket være gratis nettverksverktøy, krever ikke 
+            dette angrepet store tekniske kunnskaper.</p>
+        <br>
+        <p>Dette fører til at trafikken blir fanget av angriperen, og i noen tilfeller kan 
+            trafikken til å med bli endret. For eksempel kan angriperen lure deg ved å sende 
+            deg til en falsk nettside som ligner på outlook, og be deg skrive inn 
+            brukernavnet og passordet, som angripere misbruker med glede. Dette fører til 
+            at både konfidensialitet og integritet blir kompromittert.</p>
+        <br>
 
-        <br><br><br>
+        <img src="images/pic9.png" alt="" width=80% 
+            class="risk-img">
+
+        <p><b>Rogue Access Point</b></p>
+        <br>
+        <p>Er et angrep der angriperen setter opp et trådløst nettverk som etterligner 
+            et ekte nettverk, ved å ha lignende eller troverdige nettverksnavn som lurer 
+            brukere til å tro at det er et legitimt nettverk. Ved å koble til et slik 
+            nettverk ruter man trafikken sin gjennom angriperens verktøy og utstyr, og 
+            han kan se og endre alt kommunikasjon du har med omverden. Man vil ha lignende 
+            muligheter for utnytelse som i Man-in-the-Middel angrep. Dette fører til at 
+            både konfidensialitet og integritet blir kompromittert.</p>
+        <br>
+
+        <img src="images/pic10.svg" alt="" width=80% 
+            class="risk-img">
+
+        <p><b>Spredning av Skadevare</b></p>
+        <br>
+        <p>Et åpent nettverk kan være en snarvei for angripere til å spre ondsinnet 
+            programvare. Mange enheter lar deg automatisk dele filer med enheter på samme 
+            nettverk. Det kan virke praktisk, helt til en av filene er et skadevare som 
+            plantes på enheten din. Dette gir en angriper full tilgang og kontroll over 
+            enheten din, inkludert all sensitiv informasjon. Dette kan føre til at 
+            informasjonen blir stjålet og eneste måte å få det tilbake ved å betale 
+            løsepenger (Ransomware). Den infisert enheten vil også utgjøre en trussel 
+            for bedriftsnettverket når du først møter opp på kontoret. Dette fører 
+            til at både konfidensialitet, integritet og tilgjengelighet blir kompromittert.</p>
+        <br>
+
+        <img src="images/pic11.png" alt="" width=40% 
+            class="risk-img">
+        <br>
+
+        <img src="images/pic12.JPG" alt="" width="300" 
+                    class="risk-img-right">
+        <p><b>Konklusjon</b></p>
+        
+        <br>
+        <p>Alle disse sårbarhetene oppstår fordi brukeren ikke har kontroll på hvem som 
+            eier eller drifter nettverket man kobler seg til. Og selv om metodene varierer, 
+            har alle angrepene ett felles mål, som er å bryte ned tilliten og sikkerheten 
+            i datakommunikasjonen. Ved å forstå hvordan slike sårbarheter oppstår, 
+            kan du lettere gjenkjenne trusler og beskytte din egen og bedriftens 
+            sensitive informasjon.</p>
+        <br>
+        <p>Hvor mange ganger har du koblet deg til et åpent nettverk uten å tenke over det?</p>
+
+        <br><br>
 
         <h1>Forebygging og Tiltak</h1>
         <p>Det er ikke enkelt å gjøre noe med et svakt beskytta nettverksinfrastruktur, 
@@ -207,7 +234,7 @@
             Små justeringen i hvordan vi kobler oss til et nettverk kan ha stor betydning 
             for sikkerheten av vår egen dataflyt med omverden og kompromitteringen av enhetene 
             våre. </p>
-        <br><br>
+        <br>
         <p><b>Kryptering og Sikkerhet av Trafikken</b></p>
         <br>
         <p>Bruk alltid VPN når du er usikker om nettverket er tilstrekkelig beskyttet. 
@@ -231,7 +258,7 @@
             gjør det vanskelig for en angriper å fange opp eller lese trafikken din. Disse 
             lagene overlapper hverandre og hvis en skulle feile så er trafikken fremdeles 
             kryptert.</p>
-        <br><br>
+        <br>
         <p><b>Ikke koble til mistenkelige nettverk</b></p>
         <br>
         <p>Ikke alle nettverk er like trygge. En angriper kan sette opp et falskt nettverk med 
@@ -252,7 +279,7 @@
         <p>Et praktisk alternativ for når du trenger å behandle sensitiv informasjon er å bruke 
             mobilen sin hotspot. Mobilnett bruker innebygd kryptering av trafikken din, på samme 
             måte som WPA3, og er derfor tryggere.</p>
-        <br><br>
+        <br>
         <p><b>Sørg for at programvaren er oppdatert</b></p>
         <br>
         <p>Oppdateringer beskytter deg mot kjente sårbarheter som angripere utnytter. Mangle 
@@ -270,7 +297,7 @@
         <br>
         <p><b>•</b>	Skal du være ekstra sikker på at oppdateringen trer i kraft, start enheten 
             på nytt</p>
-        <br><br>
+        <br>
         <p><b>Deaktiver automatisk synkronisering</b></p>
         <br>
         <p>Automatisk synkronisering kan føre til at filer og data lastes opp eller ned i et 
@@ -283,7 +310,7 @@
         <p><b>•</b>	Overfør filer kun på et trygt nettverk, eller med VPN for å kryptere dem 
             først.</p>
         
-        <br><br><br>
+        <br>
 
         <h1>Hvordan ville situasjonen i scenarioet utløse seg om disse tiltakene var implementert?</h1>
         <p>Situasjonen i kafeen ville vært helt annerledes dersom disse tiltakene var fulgt.</p>
@@ -301,14 +328,14 @@
         <p>Resultatet?  Lønnslippet ville bli sendt gjennom en sikker kanal og konfidensialitet 
             ble bevart. Da ville du slippe en alvorsprat med sjefen dagen etter. </p>
         
-        <br><br><br>
+        <br>
 
         <h1>Risikomodell</h1>
         <p>Noen av truslene er mindre sannsynlige enn andre, og det er urealistisk at alle 
             tiltak blir fulgt hele tiden. Derfor har vi laget en risikomodell slik at du 
             kan enklere forstå hvilke tiltak som bør prioriteres.</p>
         <br>
-        <table border="1" cellpadding="10" cellspacing="0">
+        <table class = "risk-table">
             <tr>
                 <th>Risiko</th>
                 <th>Sannsynlighet</th>
@@ -327,13 +354,13 @@
                     </td>
             </tr>
             <tr>   
-                <th>Koble til et falskt nettverk</th>
-                <th>3</th>
-                <th>5</th>
-                <th>Høy</th>
-                <th>o	Dobbeltsjekk navn <br>
+                <td>Koble til et falskt nettverk</td>
+                <td>3</td>
+                <td>5</td>
+                <td>Høy</td>
+                <td>o	Dobbeltsjekk navn <br>
                     o	Skru av automatisk tilkobling
-                    </th>
+                    </td>
             </tr>
             <tr>
                 <td>Manglende oppdateringer</td>
