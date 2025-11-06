@@ -42,6 +42,49 @@ const quizData = [
     ],
     correct: 0,
     explanation: "Offentlige(åpne) nettverk er spessielt utsatt for flere trusler: Man-in-the-middle - En som kan lese og endre trafikk mellom deg og nettet, packet sniffing - ukryptert trafikk (HTTP) kan leses av andre på nettverket) og malvertising - infiserte sider eller usikre vedlegg som kan spre skadelig programvare."
+  },
+  {
+    question: "Hva er formålet med å bruke VPN på et usikret nettverk?",
+    options: [
+      "Gjøre internett raskere",
+      "At sjefen stopper å mase",
+      "Kryptere all trafikk mellom deg og mottaker",
+      "Fordi VPN hindrer at datamaskinen min blir stjålet!"
+    ],
+    correct: 2,
+    explenation: ""
+  },
+  {
+    question: "Hvorfor holder det ikke å kun bruke HTTPS beskytta nettsider når du er tilkoblet til et falskt nettverk?",
+    options: [
+      "HTTPS fungerer bare hjemme",
+      "HTTPS krypterer kun trafikk i nettleseren",
+      "HTTPS er et virus, lure spørsmål ",
+      "HTTPS står for 'Hamptern trår trygt på spionoppdraget"
+    ],
+    correct: 1,
+    explanation: ""
+  },
+  {
+    question: "Hvilket alternativ er tryggest når du må jobbe med sensitiv informasjon?",
+    options: [
+      "Mobil hotspot",
+      "Åpent nettverk",
+      "Nettverk"
+    ],
+    correct: 2,
+    explanation: ""
+  },
+  {
+    question: "Hvilke nettverk virker ekte?",
+    options: [
+      "Starcbucks",
+      "Starbucks",
+      "Starbubck",
+      "Starducks"
+    ],
+    correct: 1,
+    explanation: ""
   }
 ];
 

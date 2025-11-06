@@ -668,6 +668,19 @@
     -moz-text-fill-color: transparent;
 }
 
+.risk-content h2 {
+    background-color: #16b883;
+    background-image: linear-gradient(to right, #3fc498 0%, 
+    #6dceae 0%, #88bdab 21%, #cbeee2 52%, #e1ebe7 78%,
+    #ffffff 100%);
+    background-size: 100%;
+    font-size: 2rem;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-text-fill-color: transparent;
+}
+
 .risk-content b {
     background-color: #ffffff;
     background-image: linear-gradient(to right, #ffffff 0%, 
