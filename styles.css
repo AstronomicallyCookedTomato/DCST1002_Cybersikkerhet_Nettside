@@ -695,6 +695,15 @@
     -moz-text-fill-color: transparent;
 }
 
+.risk-content a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.risk-content a:hover {
+    color: #bebebe;
+}
+
 .risk-table {
     width: 100%;
     border-collapse: collapse;
