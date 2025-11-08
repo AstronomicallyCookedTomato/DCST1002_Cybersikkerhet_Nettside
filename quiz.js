@@ -1,13 +1,14 @@
 const quizData = [
   {
-    question: "Hvorfor bør du aktivere brannmur på ruteren din?",
+    question: "Hva kan gjøre det vanskelig for tyver å komme seg inn på maskinen din dersom den er frastjålet?",
     options: [
-      "Den lar flere bruke samme nettverk samtidig",
-      "For å tette kjente sikkerhetshull og sårbarheter",
-      "Den blokkerer uvedkommende tilkoblinger",
+      "Skrive passord på en lapp og feste den på maskinen",
+      "Deaktivere alle sikkerhetsinstillinger så det er enkelt å spore eller hente maskinen",
+      "Et sterkt passord",
+      "Bruke et enkelt lett gjettbart passord som '123456' eller 'password'"
     ],
-    correct: 3,
-    explanation: ""  
+    correct: 2,
+    explanation: "Et sterkt passord beksytter datamaskinen din fordi den gjør det vanskelig for uvedkommende å logge inn eller få tilgang til filene dine."
   },
   {
     question: "Hvilket passord egner seg best for god sikkerhet?",
@@ -21,13 +22,14 @@ const quizData = [
     explanation: "Gode passord kjennetegnes ved lengde, compleksitet i tegn brukt, unikhet og mangel av personlige eller vanlige ord."
   },
   {
-    question: "Hva er fordelen med å segmentere hjemmenettverket ditt?",
+    question: "Du mottar en e-post fra 'banken' som sier at kontoen din er suspendert og ber deg klikke inn på en lenke for å bekrefte brukernavn og passord. Hva er det tryggeste svaret?",
     options: [
-      "Øker hastigheten på nettet",
-      "Hindrer at skadevare sprer seg mellom enheter",
-      "Gjør det enklere å koble til gjester"
+      "Klikk inn på lenken og logg inn med det samme --- banken må jo verifisere deg",
+      "Ikke klikk på lenken; gå direkte til bankens offisielle nettside eller ring banken via et kjent nummer for å bekrefte meldingen",
+      "Svar på e-posten og oppgi personnummeret ditt så banken kan identifisere deg raskt",
+      "Last ned vedleggene i e-posten og sjekk detaljer på kontoen"
     ],
-    correct: 2,
+    correct: 1,
     explanation: "Ekte banker ber sjelden om sensitiv informasjon via e-post eller gjennom ukjent lenke. Det ryggeste måten er å bruke kanaler som du vet er legitime (bankens nettsider du skriver inn manuelt, bankappen eller et offisielt nummer)."
   },
   {
@@ -67,9 +69,10 @@ const quizData = [
     question: "Hvilket alternativ er tryggest når du må jobbe med sensitiv informasjon?",
     options: [
       "Mobil hotspot",
-      "Åpent nettverk"
+      "Åpent nettverk",
+      "Nettverk"
     ],
-    correct: 1,
+    correct: 2,
     explanation: ""
   },
   {
@@ -79,26 +82,6 @@ const quizData = [
       "Starbucks",
       "Starbubck",
       "Starducks"
-    ],
-    correct: 1,
-    explanation: ""
-  },
-  {
-    question: "Hvorfor bør du aktivere brannmur på ruteren din?",
-    options: [
-      "Den lar flere bruke samme nettverk samtidig",
-      "For å tette kjente sikkerhetshull og sårbarheter",
-      "Den blokkerer uvedkommende tilkoblinger",
-    ],
-    correct: 3,
-    explanation: ""
-  },
-  {
-    question: "Hvilken handling kan redusere risikoen for å koble til et falskt nettverk?",
-    options: [
-      "Slå på automatisk tilkobling",
-      "Dobbeltsjekke nettverksnavnet",
-      "Koble til nettverk som ikke har passord",
     ],
     correct: 1,
     explanation: ""
