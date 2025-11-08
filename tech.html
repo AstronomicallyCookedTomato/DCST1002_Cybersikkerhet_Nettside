@@ -527,8 +527,62 @@
             brannmur. Hvis en solid nettverks brannmur også var installert på ruteren, er 
             det plausibelt at appen aldri kunne blitt lastet ned i først omgang, og dermed 
             ikke forårsaket virus-spredningen gjennom nettverket. </p>
+        <br>
+        
+        <h1>Risikomodell</h1>
+        <p>Noen av truslene er mindre sannsynlige enn andre, og det er urealistisk at alle 
+            tiltak blir fulgt hele tiden. Derfor har vi laget en risikomodell slik at du 
+            kan enklere forstå hvilke tiltak som bør prioriteres.</p>
+        <br>
 
-
+        <table class = "risk-table">
+            <tr>
+                <th>Risiko</th>
+                <th>Sannsynlighet</th>
+                <th>Konsekvens</th>
+                <th>Risikonivå</th>
+                <th>Tiltak</th>
+            </tr>
+            <tr>
+                <td>Ruteren har svakt passord og brukernavn</td>
+                <td>4</td>
+                <td>4</td>
+                <td>Høy</td>
+                <td>o	Endre passordet<br>
+                    o	Ikke la offentlige nettverksnavnet være brukernavnet <br>
+                    o	Skru av fjernadministrasjon av ruteren
+                    </td>
+            </tr>
+            <tr>   
+                <td>Ruterens brannmur er skrudd av</td>
+                <td>3</td>
+                <td>5</td>
+                <td>Høy</td>
+                <td>o	Inni ruterens applikasjon, sørg for at brannmur er på.</td>
+            </tr>
+            <tr>
+                <td>Ruteren har gammel programvare</td>
+                <td>3</td>
+                <td>3</td>
+                <td>Moderat</td>
+                <td>o	Manuelt oppdater programvaren <br>
+                    o	Skru på automatisk oppdatering hvis mulig </td>
+            </tr>
+            <tr>
+                <td>Nettverket mangler segmentering</td>
+                <td>3</td>
+                <td>3</td>
+                <td>Moderat</td>
+                <td>o	Opprett en gjestenettverk og hovednettverk i ruter applikasjonen</td>
+            </tr>
+            <tr>
+                <td>IOT enheter er på samme nettverk som sensitive enheter</td>
+                <td>3</td>
+                <td>2</td>
+                <td>Lav</td>
+                <td>o	Koble IoT enheter til et adskilt nettverk, for eksempel gjestenettverket</td>
+            </tr>
+        </table>
     </div>
 
     <!-- Footer Section -->
