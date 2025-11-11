@@ -131,10 +131,13 @@ quiz.addEventListener('click', (e) => {
     const options = document.querySelectorAll('.option');
     
     options[correct].style.backgroundColor = '#16b883'; 
+    options[correct].style.color = "white";
     if (selected === correct) {
       score++;
+      e.target.style.color = "white";
     } else {
       e.target.style.backgroundColor = 'red';
+      e.target.style.color = "white";
     }
 
     const explanationEl = document.createElement('p');
